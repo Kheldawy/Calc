@@ -19,10 +19,10 @@ if (operation === "+") {
     if (secondNumber !== 0) {
         result = firstNumber / secondNumber;
     } else {
-        alert("Division by zero is not allowed!");
+        console.log("Division by zero is not allowed!");
     }
 } else {
-    alert("Invalid operation! Please use +, -, *, or /.");
+    console.log("Invalid operation! Please use +, -, *, or /.");
 }
 
 
